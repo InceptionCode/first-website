@@ -1,0 +1,27 @@
+{
+  "name": "inception_code",
+  "version": "1.0.0",
+  "description": "New website development",
+  "main": "index.js",
+  "scripts": {
+    "build": "now --login",
+    "sass": "node-sass -o css css -w",
+    "server": "node js/server.js",
+    "start": "browser-sync start --server --files \"./*.html, articles/*.html, info/*.html, client/*.html, portfolio/*.html, css/*.css, js/*.js\" --startPath \"/home.html\""
+  },
+  "author": "Darrell Washington",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "*",
+    "body-parser": "*",
+    "bootstrap": "^3.3.7",
+    "cors": "*",
+    "express": "*",
+    "sendgrid": "^5.0.0",
+    "tachyons": "^4.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "node-sass": "^4.5.2"
+  }
+}

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inception Code</title>
+  <link rel="shortcut icon" href="./images/profile/Avatar-icon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap & Tachyons -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/tachyons/css/tachyons.min.css">
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body class = "bg-black bgs-view-cover anim--effect-3">
+  <div class="revealer fixed z-999 pointer-event-none"> 
+    <div class="revealer__layer bg-light-red"></div>
+    <div class="revealer__layer bg-orange"></div>
+    <div class="revealer__layer bg-dark-pink"></div>
+  </div><!-- Remove after Animation -->
+  <main class="home-page overflow-hidden visibility-hidden"> <!-- Home Page -->
+    <header>
+      <nav class="bg-black fixed z-9999 top-0 left-0 w-100">
+        <div class="hamburger bg-none w3 ml2 pa2 bn pointer dn-ns dib-767">
+          <span class="bg-white-90 nav-span-pa1 mt1 db w1 trans-a-med"></span>
+          <span class="bg-white-90 nav-span-pa1 mt1 db w2 trans-a-med"></span>
+          <span class="bg-white-90 nav-span-pa1 mt1 db w-100 trans-a-med"></span>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 col-sm-offset-0 col-xs-12 col-xs-offset-1">
+            <a href="./home.html" class="navbar-brand pl2 pr2 f5 white hover-black raleway tc-l ttu tracked-mega-x3 link outline-0 no-underline-hover">Inception Code</a>
+          </div>
+          <div class="col-sm-8 col-sm-push-1 col-md-7 mt0-ns mt4-767">
+            <ul class="nav navbar-nav pa1 ml2-l tc-m tl-ns tc">
+              <li class = "ttu f6-ns f5-m f5 pointer">
+                <a class= "nav-a white overflow-hidden hover-bg-color-none hover-white-90 pa3 br4" href="./about-me.html">
+                  <span class = "relative z-1 oswald">about me</span>
+                </a>
+              </li>
+              <li class = " ttu f6 pointer">
+                <a class= "nav-a white overflow-hidden hover-bg-color-none hover-white-90 pa3 br4" href="./articles.html">
+                  <span class = "relative z-1 oswald">articles</span>
+                </a>
+              </li>
+              <li class = " ttu f6 pointer">
+                <a class= "nav-a white overflow-hidden hover-bg-color-none hover-white-90 pa3 br4" href="./info.html">
+                  <span class = "relative z-1 oswald">info</span>
+                </a>
+              </li>
+              <li class = " ttu f6 pointer">
+                <a class= "nav-a white overflow-hidden hover-bg-color-none hover-white-90 pa3 br4" href="./services.html">
+                  <span class="relative z-1 oswald">services</span>
+                </a>
+              </li>
+              <li class = " ttu f5 pointer">
+                <a class= "nav-a white overflow-hidden hover-bg-color-none hover-white-90 pa3 br4" href="./contact.html">
+                  <span class="relative z-1 oswald">contact</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="fr mr3">
+            <a href="http://twitter.com/inceptioncode" target="blank" class= "outline-0-focus no-underline-hover link grow-large dib fr">
+              <i class="fa fa-twitter-square md-icon-size fr mt3 mr2 dn dib-l light-blue" aria-hidden="true"></i>
+            </a>
+            <a href="http://instagram.com/inceptioncode" target="blank" class= "outline-0-focus no-underline-hover link grow-large dib fr">
+              <i class="fa fa-instagram md-icon-size fr mt3 mr2 dn dib-l gold" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/darrellwashingtonjr/" target="blank" class= "outline-0-focus no-underline-hover link grow-large dib fr">
+              <i class="fa fa-linkedin-square md-icon-size fr mt3 mr2 dn dib-l blue" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <p class=" f3-ns f4 white avenir ttu tc tracked-super pa2 mt6 relative top-0-ns top-2 bt-2 bb-2 b--white"> Web solutions for the dreamers and doers. </p>
+    </header>
+    <section class="mt3">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 mt3-ns mt5">
+            <div id="work-slider" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#work-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#work-slider" data-slide-to="1"></li>
+                <li data-target="#work-slider" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img class="d-block img-fluid" src="./images/work/BusbyMaidService.png" alt="cleaning service website">
+                </div>
+                <div class="item">
+                  <img class="d-block img-fluid" src="./images/work/richardallenchase.png" alt="church website">
+                </div>
+                <div class="item">
+                  <img class="d-block img-fluid" src="./images/work/MyWebsite.png" alt="darrellwashingtonjr.com first website">
+                </div>
+              </div>
+            </div>
+            <div class="pa3 bg-white shadow-darker-5">
+              <h2 class="f3 open-sans ttu tc"> Why Inception Code?</h2>
+              <div class="w-80-ns w-90-m w-100 center mt3 mb3">
+                <p class="roboto f5 lh-double fr mb3">
+                 I believe programming is innovation that can build, change, and effect at any scale.
+                 It's more than just a skill it provides solutions. To me, this innovation is artwork, creativity and is needed.
+                 I provide innovative solutions that can change your world drastically. My platform of choice is the web.
+                 I happen to create websites and web apps that deliver an enormous, innovative impact to you.
+                 See all the endless possibilities innovation can bring to you.
+                </p>
+              </div>
+              <div class= "center w-40-ns w-50 mb3">
+                <a href = "./services.html"class="f4-ns f5 tc bn pa2 w-100 dib bg-trim-color white hover-white no-underline-hover shadow-darker-5 bold bounce-animation grow shadow-hover shadow-hover-5">
+                  Let's Go <span class="glyphicon glyphicon-saved sm-icon-size ml2"></span>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 mt2">
+            <img src="./images/profile/portrait-1.jpg" alt="black and white picture of me." class="img-responsive">
+            <div class="pa2 celestial-bg">
+              <p class="roboto tc ttu lh-double white"> 
+                <strong class="bb-2 avenir">Legacy </strong>
+                <br>
+                how you live
+                <br>
+                what you have learned
+                <br>
+                and what remains.
+              </p>
+            </div>
+            <div class="bg-white shadow-darker-5 pa3">
+              <h2 class="f3 open-sans tc ttu"> Who's Behind This?</h2>
+              <div class="w-90 center">
+                <p class="f5 roboto lh-double mt4 mb4">
+                  The guy who can't help but code and believes it's more than science it's an art. 
+                  He also loves the design of websites, seeing people grow and have a wealthy, successful life. 
+                  That guy has spent his past 2+ years developing, learning and working on his craft.<br class="dn-ns"><br class="dn-ns">
+                  Within those 2 years, he was too busy dealing with lead Senior Developers, Instructors/Tutors, and Consultants who were all mentors to him.
+                  As well as building business connections such as  <a class="dib trim-color hover-red link grow no-underline no-underline-hover" href="http://airtightdesign.com" target="blank">AirTight Design</a>, 
+                  <a class="dib trim-color hover-red link grow no-underline no-underline-hover" href="http://randyjmitchell.com" target="blank">Randy J Mitchell</a>,
+                  and <a class="dib trim-color hover-red link grow no-underline no-underline-hover" href="http://knowthen.com" target="blank"> James Moore.</a> 
+                  He is employed with  <a class="dib trim-color hover-red link grow no-underline no-underline-hover" href="http://taaagsports.com/" target="blank">Taaags,</a>
+                  a football recording company that provides "AAU" highlights, stats, and other game footage for everyone on a web app platform.
+                  <br><br> 
+                  This kid knows his stuff.
+                  Most importantly this kid is growing and getting even better.
+                </p>
+              </div>
+              <div class= "mt3">
+                <a href = "./about-me.html"class="bn w-100 tc pa2 w6 dib f5 bg-trim-color white hover-white no-underline-hover shadow-darker-5 bold bounce-animation grow shadow-hover shadow-hover-5">
+                   Discover More
+                </a>
+              </div>
+           </div>
+         </div>
+       </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 flex flex-row-ns flex-column-m flex-column items-end">
+            <div class="mt3 pa2">
+              <img src="./images/articles/loyalty.gif" alt="nintendo characters jumping gif that says thank you." class= "img-responsive">
+              <div class="pa1 power-yellow-bg">
+                <h2 class="avenir f4 white ttu tc"> Loyalty </h2>
+              </div>
+              <div class="bg-white shadow-darker-5 pa2">
+                <p class="roboto f5 lh-double">
+                  One of the best moments of my life took place awhile back. 
+                  An interview that may very well set me on the path I wish to be on. 
+                </p>
+              </div>
+              <div class="brand-bg">
+                <a class="f4 tc bn pa2 w-100 dib white hover-white no-underline-hover shadow-darker-5 bold bounce-animation grow shadow-hover shadow-hover-5" href="./articles/life/loyalty.html">
+                  Read More <span class="fr glyphicon glyphicon-share-alt"></span>
+                </a>
+              </div>
+            </div>
+            <div class="mt3 pa2">
+              <img src="./images/articles/basics.jpg" alt="close up of writing on paper." class= "img-responsive">
+              <div class="pa2 coal-bg">
+                <h2 class="avenir f4 white ttu tc"> Back To The Basics </h2>
+              </div>
+              <div class="bg-white shadow-darker-5 pa2">
+                <p class="roboto f5 lh-double">
+                I believe everyone goes through the same stages in life. 
+                Those stages only come up when you are closing in on your dreams. 
+                The key words here are CLOSING IN. 
+                <br>
+                </p>
+              </div>
+              <div class="brand-bg">
+                <a class="f4 tc bn pa2 w-100 dib white hover-white no-underline-hover shadow-darker-5 bold bounce-animation grow shadow-hover shadow-hover-5" href="./articles/life/back_to_the_basics.html">
+                  Read More <span class="fr glyphicon glyphicon-share-alt"></span>
+                </a>
+              </div>
+            </div>
+            <div class="mt3 pa2">
+              <img src="./images/articles/guts_over.jpg" alt="man standing on high clift." class= "img-responsive">
+              <div class="pa1 shades-grey-bg">
+                <h2 class="avenir f4 white ttu tc"> Guts Over Fear </h2>
+              </div>
+              <div class="bg-white shadow-darker-5 pa2">
+                <p class="roboto f5 lh-double">
+                A while back I felt as if I should stay away from GitHub let alone the entire community. 
+                Mainly because I felt as if I was not at the community level (whatever that is)...
+                <br> 
+                </p>
+              </div>
+              <div class="brand-bg">
+                <a class="f4 tc bn pa2 w-100 dib white hover-white no-underline-hover shadow-darker-5 bold bounce-animation grow shadow-hover shadow-hover-5" href="./articles/life/guts_over_fear.html">
+                  Read More <span class="fr glyphicon glyphicon-share-alt"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt3">
+      <div class="container">
+        <div class="flex flex-column mb4">
+          <div class="pa0">
+            <img src="./images/articles/questions.jpg" alt="business man at coffee shop typing on mac-book" class= "img-responsive">
+          </div>
+          <div class="pa1 celestial-bg">
+            <h2 class="avenir f4 white ttu tc"> 10 Questions You Must Ask...</h2>
+          </div>
+          <div class="bg-white pa2 shadow-darker-5">
+            <p class="roboto w-50-ns center-ns f5 lh-double">
+              You have to know exactly what you are getting yourself into before hiring anyone. 
+              No matter the task or service, asking questions are essential. 
+              You just have to know the right questions to ask. <br> <br>
+              So, if you are wondering, “who can I hire?” 
+              Look no further, I will break down how to come to a decision between Web Developers and an actual company.
+            </p>
+          </div>
+          <div class="brand-bg"><a class="f4 tc bn pa2 w-100 dib white hover-white no-underline-hover shadow-darker-5 bold bounce-animation grow shadow-hover shadow-hover-5" href="./info/10_questions_you_must_ask_a_developer.html">
+              Read More <span class="fr glyphicon glyphicon-share-alt"></span>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-column mb4">
+          <div class="pa0">
+            <img src="./images/articles/bill_books.png" alt="bill gates standing next to book shelf" class= "img-responsive">
+          </div>
+          <div class="pa2 power-yellow-bg">
+            <h2 class="avenir f4 white ttu tc"> Bill And His Books </h2>
+          </div>
+          <div class="bg-white shadow-darker-5 pa2">
+            <p class="roboto f5 lh-double w-50-ns center-ns">
+            There is a huge advantage to reading. 
+            Every millionaire or billionaire you know has a well established reading method or schedule.
+            Trust me that's no coincidence it's all for good reason. 
+            <br> <br>
+            Take a look at Bill Gates collection and reviews. 
+            I encourage you to pick a few up for yourself.
+            </p>
+          </div>
+          <div class="brand-bg"><a class="f4 tc bn pa2 w-100 dib white hover-white no-underline-hover shadow-darker-5 bold bounce-animation grow shadow-hover shadow-hover-5" href="https://www.gatesnotes.com/Books">
+              Read More <span class="fr glyphicon glyphicon-share-alt"></span>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-column mb4">
+          <div class="pa0">
+            <img src="./images/articles/brand_you.png" alt="Image that says,'The Brand Called You'" class= "img-responsive">
+          </div>
+          <div class="pa1 coal-bg">
+            <h2 class="avenir f4 white ttu tc"> The Brand Called You </h2>
+          </div>
+          <div class="bg-white shadow-darker-5 pa2">
+            <p class="roboto f5 lh-double w-50-ns center-ns">
+            Big companies understand the importance of brands.
+            Today, in the Age of the Individual, you have to be your own brand. 
+            Here’s what it takes to be the CEO of Me Inc.
+            <br><br>
+            When you realize that no matter what you do you can't escape marketing. 
+            As long as you live you will always have to market yourself.
+            Once you understand the truth and significance of that statement, check out this article. 
+            It breaks down not just the importance of your brand, but how to build it as well.
+            </p>
+          </div>
+          <div class="brand-bg"><a class="f4 tc bn pa2 w-100 dib white hover-white no-underline-hover shadow-darker-5 bold bounce-animation grow shadow-hover shadow-hover-5" href="https://www.fastcompany.com/28905/brand-called-you">
+              Read More <span class="fr glyphicon glyphicon-share-alt"></span>
+            </a>
+          </div>
+         </div>
+      </div>
+    </section>
+    <footer class= "celestial-bg pa3 w-100 tc f4-ns f5 white"><i class="fa fa-copyright icon-size-sm" aria-hidden="true"></i> 2017 darrellwashingtonjr.com/InceptionCode</footer>
+  </main> <!--End of Home Page -->
+<!--Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<!-- JS -->
+<script src="./js/transition.js"></script>
+<script src="./js/navigation.js"></script>
+</body>
+</html>

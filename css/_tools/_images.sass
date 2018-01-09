@@ -1,0 +1,127 @@
+.background-landing-image
+  background: 
+      image: url("../images/landing2.jpg")
+      repeat: no-repeat 
+
+.brand-bg
+  background: #CB356B
+  background: -webkit-linear-gradient(to right, #BD3F32, #CB356B)
+  background: linear-gradient(to right, #BD3F32, #CB356B)
+
+.shades-grey-bg
+  background: #bdc3c7  
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7)
+  background: linear-gradient(to right, #2c3e50, #bdc3c7)
+
+.coal-bg
+  background: #EB5757
+  background: -webkit-linear-gradient(to right, #000000, #EB5757)
+  background: linear-gradient(to right, #000000, #EB5757) 
+
+.power-yellow-bg
+  background: #F7971E
+  background: -webkit-linear-gradient(to right, #FFD200, #F7971E)
+  background: linear-gradient(to right, #FFD200, #F7971E)
+
+.celestial-bg
+  background: #C33764
+  background: -webkit-linear-gradient(to right, #1D2671, #C33764)
+  background: linear-gradient(to right, #1D2671, #C33764)
+
+.instagram-bg
+  background: #f7ff00
+  background: -webkit-linear-gradient(to right, #db36a4, #f7ff00)
+  background: linear-gradient(to right, #db36a4, #f7ff00)
+
+.shades-blue-bg
+  background: #36D1DC
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC)
+  background: linear-gradient(to right, #5B86E5, #36D1DC)
+
+.future-green-bg
+  background: #1c92d2
+  background: -webkit-linear-gradient(to right, #0f9b0f, #1c92d2)
+  background: linear-gradient(to right, #0f9b0f, #1c92d2)
+
+.select-style
+  overflow: hidden!important
+  height: 40px
+  transition: $smooth
+  background: 
+    image: url(../images/svg/folder-15.svg)
+    repeat: no-repeat
+    position: right center
+  
+  &:hover
+    cursor: pointer
+
+  &:focus
+    outline: none
+select 
+  background: transparent
+  background-image: none
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+
+.hover-bg-celestial:hover
+  @extend .celestial-bg 
+
+.active-tab
+  @extend .celestial-bg
+
+.span-bars span
+  display: inline-block
+  padding: 3px
+  margin: 5px
+  width: 5%
+  height: 20px
+  border-radius: 50%
+  &:after
+    display: block
+    border-radius: 50%
+    width: 5%
+    height: 20px
+
+.fill-10 
+  @extend .span-bars
+  span
+    @extend .brand-bg
+    &:nth-child(n+12)
+      background: fade-out(white, 0.3)
+    
+.fill-9
+  @extend .span-bars
+  span
+    @extend .celestial-bg
+    &:nth-child(n+11)
+      background: fade-out(white, 0.3)
+
+.fill-8
+  @extend .span-bars
+  span 
+    @extend .instagram-bg
+    &:nth-child(n+10)
+      background: fade-out(white, 0.3)
+
+.fill-7
+  @extend .span-bars
+  span 
+    @extend .power-yellow-bg
+    &:nth-child(n+9)
+      background: fade-out(white, 0.3)
+
+.fill-5
+  @extend .span-bars
+  span
+    @extend .shades-blue-bg
+    &:nth-child(n+7)
+      background: fade-out(white, 0.3)
+
+.fill-6 
+  @extend .span-bars
+  span
+    @extend .future-green-bg
+    &:nth-child(n+8)
+      background: fade-out(white, 0.3)
+

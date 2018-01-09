@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inception Code</title>
+  <link rel="shortcut icon" href="./images/profile/Avatar-icon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap & Tachyons -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/tachyons/css/tachyons.min.css">
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body class= "brand-bg">
+ <header>
+      <nav class="bg-black fixed z-9999 top-0 left-0 w-100">
+        <div class="hamburger bg-none w3 ml2 pa2 bn pointer dn-ns dib-767">
+          <span class="bg-white-90 nav-span-pa1 mt1 db w1 trans-a-med"></span>
+          <span class="bg-white-90 nav-span-pa1 mt1 db w2 trans-a-med"></span>
+          <span class="bg-white-90 nav-span-pa1 mt1 db w-100 trans-a-med"></span>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 col-sm-offset-0 col-xs-12 col-xs-offset-1">
+            <a href="./home.html" class="navbar-brand pl2 pr2 f5 white hover-black raleway tc-l ttu tracked-mega-x3 link outline-0 no-underline-hover">Inception Code</a>
+          </div>
+          <div class="col-xs-8 col-xs-push-1 col-sm-8 col-md-7 mt0-ns mt4-767">
+            <ul class="nav navbar-nav pa1 ml2-l tc-m tl-ns tc">
+              <li class = "ttu f6-ns f5-m f5 pointer">
+                <a class= "nav-a white overflow-hidden hover-bg-color-none hover-white-90 pa3 br4" href="./about-me.html">
+                  <span class = "relative z-1 oswald">about me</span>
+                </a>
+              </li>
+              <li class = " ttu f6 pointer">
+                <a class= "nav-a white overflow-hidden hover-bg-color-none hover-white-90 pa3 br4" href="./articles.html">
+                  <span class = "relative z-1 oswald">articles</span>
+                </a>
+              </li>
+              <li class = " ttu f6 pointer">
+                <a class= "nav-a white overflow-hidden hover-bg-color-none hover-white-90 pa3 br4" href="./info.html">
+                  <span class = "relative z-1 oswald">info</span>
+                </a>
+              </li>
+              <li class = " ttu f6 pointer">
+                <a class= "nav-a white overflow-hidden hover-bg-color-none hover-white-90 pa3 br4" href="./services.html">
+                  <span class="relative z-1 oswald">services</span>
+                </a>
+              </li>
+              <li class = " ttu f5 pointer">
+                <a class= "nav-a white overflow-hidden hover-bg-color-none hover-white-90 pa3 br4" href="./contact.html">
+                  <span class="relative z-1 oswald">contact</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="fr mr3">
+            <a href="http://twitter.com/inceptioncode" target="blank" class= "outline-0-focus no-underline-hover link grow-large dib fr">
+              <i class="fa fa-twitter-square md-icon-size fr mt3 mr2 dn dib-l light-blue" aria-hidden="true"></i>
+            </a>
+            <a href="http://instagram.com/inceptioncode" target="blank" class= "outline-0-focus no-underline-hover link grow-large dib fr">
+              <i class="fa fa-instagram md-icon-size fr mt3 mr2 dn dib-l gold" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/darrellwashingtonjr/" target="blank" class= "outline-0-focus no-underline-hover link grow-large dib fr">
+              <i class="fa fa-linkedin-square md-icon-size fr mt3 mr2 dn dib-l blue" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <p class=" f3-ns f4 white avenir ttu tc tracked-super pa2 mt6 relative top-0-ns top-2 bt-2 bb-2 b--white">Articles </p>
+  </header>
+  <main class="container-fluid mt3-ns mt5-m mt5"> 
+    <div class="row flex flex-row-ns flex-column-m flex-column">
+      <section class="section-articles col-md-10 col-xs-12 bg-white shadow-darker-5 pa3">
+      </section>
+      <section class="col-md-2 col-xs-12 bg-black-80 shadow-darker-5">
+        <div class="tabs active-tab featured-tab pa4 hover-bg-celestial pointer">
+          <p class="roboto f5 white ttu tc pointer-event-none">Featured</p>
+        </div>
+        <div class="tabs life-tab pa4 hover-bg-celestial pointer">
+          <p class="roboto f5 white ttu tc pointer-event-none">Life</p>
+        </div>
+        <div class="tabs wealth-tab pa4 hover-bg-celestial pointer">
+          <p class="roboto f5 white ttu tc pointer-event-none">Wealth</p>
+        </div>
+        <div class="tabs health-tab pa4 hover-bg-celestial pointer">
+          <p class="roboto f5 white ttu tc pointer-event-none">Health</p>
+        </div>
+        <div class="tabs technology-tab pa4 hover-bg-celestial pointer">
+          <p class="roboto f5 white ttu tc pointer-event-none">Technology</p>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class= "celestial-bg pa3 w-100 tc f4-ns f5 white"><i class="fa fa-copyright icon-size-sm" aria-hidden="true"></i> 2017 darrellwashingtonjr.com/InceptionCode</footer>
+<!--Axios-->
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+<!-- JS -->
+<script src="./js/navigation.js"></script>
+<script src="./js/grab-articles.js"></script>
+</body>
+</html>

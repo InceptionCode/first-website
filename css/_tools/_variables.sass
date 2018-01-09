@@ -1,0 +1,182 @@
+/* Variables */
+$trim-color: #ce3238
+$light-red: #ff725c
+$orange: #ff6300
+$dark-pink: #d5008f
+$view-width: 100vw
+$instagram-purple: #c13584
+
+//Transition-Animations
+$strong-bounce: cubic-bezier(0, 0.66, 0.39, 2.01)
+$fast: all 0.3s ease-in
+$smooth: all 0.5s ease-in-out
+$slow: all 1s ease-in-out
+$bouncy: all 0.5s $strong-bounce
+
+.fast-transition
+  transition: $fast
+
+.smooth-transition
+  transition: $smooth
+
+.trim-color
+  color: $trim-color
+
+.bg-trim-color
+  background-color: $trim-color
+
+.b--trim-color
+  border-color: $trim-color
+
+.b--hover-trim-color:hover
+  border-color: $trim-color
+.b--hover-trim-color:focus
+  border-color: $trim-color
+
+.b--hover-light-red:hover 
+  border-color: $light-red
+.b--hover-light-red:focus
+  border-color: $light-red
+
+.b--hover-red:hover
+  border-color: red
+.b--hover-red:focus
+  border-color: red
+
+.instagram-purple
+  color: $instagram-purple
+
+.vw-100
+  width: $view-width
+
+.bgs-view-cover
+  background-size: 100vw 100vh !important
+
+.xl-icon-size
+  font-size: 4rem !important
+
+.lg-icon-size
+  font-size: 3rem !important
+  
+.md-icon-size
+  font-size: 2rem !important
+
+.sm-icon-size
+  font-size: 1.5rem !important
+
+.bounce-animation
+  transition: $bouncy
+  &.start-animation
+    animation: continued-bounce 1s infinite
+  &:hover
+    cursor: pointer
+
+.visibility-hidden 
+  visibility: hidden 
+
+.pointer-event-none
+  pointer-events: none
+
+.origin-15-90
+  transform-origin: 15% 90%
+
+.origin-50-50
+  transform-origin: 50% 50%
+
+.row-eq-height 
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+
+.row-eq-height [class^="col-"]
+  padding-top: 15px!important
+  padding-bottom: 15px!important
+
+.email-width
+  width: 83%
+
+.b--trim-color
+  border-color: $trim-color
+
+.valid-style:valid
+  border: 2px solid limegreen
+
+.valid-style:invalid
+  border: 2px solid red;
+
+.img-col-sm img
+  width: 20%
+  height: 200px
+.img-responsive-sm
+  max-width: 85%
+  height: auto
+
+.circle-div-sm
+  width: 50px;
+  height: 50px;
+
+.circle-div-md
+  width: 100px;
+  height: 100px;
+
+.list-question:before
+  content: ' Q:  '
+  font-weight: bold
+
+.list-answer:before
+  content: ' A:  '
+  font-weight: bold
+
+.codepen-transition:hover
+  transition: $smooth
+  background: black
+  color: white
+
+.github-transition:hover
+  transition: $smooth
+  background: purple
+  color: white
+
+.instagram-transition:hover
+  transition: $smooth
+  background: #f7ff00
+  background: -webkit-linear-gradient(to right, #db36a4, #f7ff00)
+  background: linear-gradient(to right, #db36a4, #f7ff00)
+  color: white
+
+.twitter-transition:hover
+  transition: $smooth
+  background: lightblue
+  color: white
+
+
+.linkedin-transition:hover
+  transition: $smooth
+  background: blue
+  color: white
+
+.youtube-transition:hover
+  transition: $smooth
+  background: red
+  color: white
+
+.mxH-740
+  max-height: 740px
+
+@media(max-width: 767px) 
+  .img-col-sm 
+    flex-wrap: wrap
+    & img
+      width: 50%
+      height: 200px
+  .mt4-sm
+    margin-top: 2rem
+
+@media(min-width: 30em) 
+  .lg-icon-size-ns
+    font-size: 3rem !important
+
+@media(min-width:30em) and (max-width: 60em)
+  .md-icon-size-m
+    font-size: 2rem !important

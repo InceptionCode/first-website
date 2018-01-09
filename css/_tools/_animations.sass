@@ -1,0 +1,72 @@
+.anim--effect-3 .revealer--animate .revealer__layer 
+	animation: anim-effect-3-1 1.5s cubic-bezier(0.550, 0.055, 0.675, 0.190) forwards
+
+
+.anim--effect-3 .revealer--animate .revealer__layer:nth-child(2) 
+	animation-name: anim-effect-3-2
+
+
+.anim--effect-3 .revealer--animate .revealer__layer:nth-child(3) 
+	animation-name: anim-effect-3-3
+
+
+@keyframes anim-effect-3-1 
+	0% 
+		transform: translate3d(0, 0, 0)
+	
+	25%, 75% 
+		transform: translate3d(0, -100%, 0)
+		animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)
+	
+	100% 
+		transform: translate3d(0, -200%, 0)
+	
+
+
+@keyframes anim-effect-3-2 
+	0%, 12.5% 
+		transform: translate3d(0, 0, 0)
+	
+	37.5%, 62.5% 
+		transform: translate3d(0, -100%, 0)
+		animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000)
+	
+	87.5%, 100% 
+		transform: translate3d(0, -200%, 0)
+	
+
+
+@keyframes anim-effect-3-3 
+	0%, 25% 
+		transform: translate3d(0, 0, 0)
+		animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000)
+	
+	75%, 100% 
+		transform: translate3d(0, -200%, 0)
+	
+
+@keyframes link-ripple
+  0%
+    background: $orange
+    transform: translate3d(-50%, -50%, 0) scale(0, 0)
+    opacity: 1
+  25%
+    background: $light-red
+    transform: translate3d( -50%, -50%, 0) scale(5, 5)
+    opacity: 1
+  75%
+    background: $dark-pink
+    transform: translate3d( -50%, -50%, 0) scale(0, 0)
+    opacity: 1
+  100% 
+    background: black
+    transform: translate3d(-50%, -50%, 0) scale(5, 5)
+    opacity: 0
+
+
+@keyframes continued-bounce
+  0% 
+    transform: translateX(0)
+
+  100%
+    transform: translateY(20px)
